@@ -77,8 +77,8 @@ with open('durchschnitts_preis.csv', 'a+') as tempLog:
 
 
 with open("git_log.txt", "r") as f:
-    todays_day = datetime.today().day
-    if todays_day == 1:
+    todays_day = datetime.now().weekday()
+    if todays_day in [0,2,4,6]:
         if f.read() == "False":
             remote_repo = "origin"
             branch = "main"  # Change this to your branch name if different
@@ -87,4 +87,4 @@ with open("git_log.txt", "r") as f:
                 file.write("True")
     else:
         with open("git_log.txt", "w") as file:
-            file.write("False")        
+            file.write("False")     
