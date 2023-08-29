@@ -1,0 +1,10 @@
+[main 0c42d5e] Add update
+ 6 files changed, 10 insertions(+), 3 deletions(-)
+ create mode 100644 benzin.log
+To https://github.com/GermanPaul12/Benzinpreise-Analysis-Heidelberg.git
+   a8bf908..0c42d5e  main -> main
+File successfully pushed to the remote repository.
+Traceback (most recent call last):
+  File "/home/german/Documents/Coding/Benzinpreise-Analysis-Heidelberg/benzin.py", line 53, in <module>
+    prices[0], prices[1], prices[2]
+IndexError: list index out of range
