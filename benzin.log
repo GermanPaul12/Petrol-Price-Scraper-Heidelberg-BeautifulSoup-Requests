@@ -102,3 +102,8 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.benzinpreis.de', port=443): Max retries exceeded with url: /aktuell/super_e5/deutschland/baden-wuerttemberg/karlsruhe/landkreis_heidelberg/heidelberg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98184160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[main f2837d2] Add update
+ 5 files changed, 385 insertions(+)
+To https://github.com/GermanPaul12/Benzinpreise-Analysis-Heidelberg.git
+   d6440c7..f2837d2  main -> main
+File successfully pushed to the remote repository.
