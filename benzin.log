@@ -121,3 +121,8 @@ IndexError: list index out of range
 To https://github.com/GermanPaul12/Benzinpreise-Analysis-Heidelberg.git
    40640df..c535b16  main -> main
 File successfully pushed to the remote repository.
+[main 793566a] Add update
+ 5 files changed, 341 insertions(+)
+To https://github.com/GermanPaul12/Benzinpreise-Analysis-Heidelberg.git
+   c535b16..793566a  main -> main
+File successfully pushed to the remote repository.
