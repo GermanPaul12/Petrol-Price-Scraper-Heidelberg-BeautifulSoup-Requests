@@ -47,7 +47,7 @@ soup = BeautifulSoup(response.text, "lxml")
 prices_list = soup.find_all('td', 'center')
 prices = [i.text for i in prices_list]
 
-with open('test.csv', 'a+') as tempLog:
+with open('Files/test.csv', 'a+') as tempLog:
     csv.writer(tempLog).writerow([
         f"Kategorie (Datum: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         prices[0], prices[1], prices[2]
@@ -59,32 +59,32 @@ with open('test.csv', 'a+') as tempLog:
     csv.writer(tempLog).writerow(
         ["Durchschnittspreis:", prices[9], prices[10], prices[11]])
 
-with open('guenstigster_preis.csv', 'a+') as tempLog:
+with open('Files/guenstigster_preis.csv', 'a+') as tempLog:
     csv.writer(tempLog).writerow([
         f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", prices[3],
         prices[4], prices[5]
     ])
-with open('teuerster_preis.csv', 'a+') as tempLog:
+with open('Files/teuerster_preis.csv', 'a+') as tempLog:
     csv.writer(tempLog).writerow([
         f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", prices[6],
         prices[7], prices[8]
     ])
-with open('durchschnitts_preis.csv', 'a+') as tempLog:
+with open('Files/durchschnitts_preis.csv', 'a+') as tempLog:
     csv.writer(tempLog).writerow([
         f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", prices[9],
         prices[10], prices[11]
     ])
 
 
-with open("git_log.txt", "r") as f:
+with open("Files/git_log.txt", "r") as f:
     todays_day = datetime.now().weekday()
     if todays_day in [0,2,4,6]:
         if f.read() == "False":
             remote_repo = "origin"
             branch = "main"  # Change this to your branch name if different
             git_push(remote_repo, branch)
-            with open("git_log.txt", "w") as file:
+            with open("Files/git_log.txt", "w") as file:
                 file.write("True")
     else:
-        with open("git_log.txt", "w") as file:
+        with open("Files/git_log.txt", "w") as file:
             file.write("False")     
