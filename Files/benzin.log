@@ -2353,3 +2353,8 @@ Traceback (most recent call last):
   File "/home/german/.local/lib/python3.9/site-packages/requests/adapters.py", line 519, in send
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.benzinpreis.de', port=443): Max retries exceeded with url: /aktuell/super_e5/deutschland/baden-wuerttemberg/karlsruhe/landkreis_heidelberg/heidelberg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f90361040>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[main f57e40d] Add update
+ 5 files changed, 2778 insertions(+)
+To https://github.com/GermanPaul12/Petrol-Price-Scraper-Heidelberg-BeautifulSoup-Requests.git
+   0259b57..f57e40d  main -> main
+File successfully pushed to the remote repository.
