@@ -2893,3 +2893,12 @@ File successfully pushed to the remote repository.
 To https://github.com/GermanPaul12/Petrol-Price-Scraper-Heidelberg-BeautifulSoup-Requests.git
    c18cd31..94abd49  main -> main
 File successfully pushed to the remote repository.
+[main 91867ec] Add update
+ 5 files changed, 341 insertions(+)
+To https://github.com/GermanPaul12/Petrol-Price-Scraper-Heidelberg-BeautifulSoup-Requests.git
+   94abd49..91867ec  main -> main
+File successfully pushed to the remote repository.
+Traceback (most recent call last):
+  File "/home/german/Documents/Coding/Petrol-Price-Scraper/benzin.py", line 53, in <module>
+    prices[0], prices[1], prices[2]
+IndexError: list index out of range
