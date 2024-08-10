@@ -3126,3 +3126,8 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.benzinpreis.d
 To https://github.com/GermanPaul12/Petrol-Price-Scraper-Heidelberg-BeautifulSoup-Requests.git
    56ed6ae..ff13817  main -> main
 File successfully pushed to the remote repository.
+[main 00b9a1a] Add update
+ 5 files changed, 341 insertions(+)
+To https://github.com/GermanPaul12/Petrol-Price-Scraper-Heidelberg-BeautifulSoup-Requests.git
+   ff13817..00b9a1a  main -> main
+File successfully pushed to the remote repository.
