@@ -3193,3 +3193,8 @@ Traceback (most recent call last):
   File "/home/german/Documents/Coding/Petrol-Price-Scraper/benzin.py", line 53, in <module>
     prices[0], prices[1], prices[2]
 IndexError: list index out of range
+[main 0753f7f] Add update
+ 5 files changed, 503 insertions(+)
+To https://github.com/GermanPaul12/Petrol-Price-Scraper-Heidelberg-BeautifulSoup-Requests.git
+   15ebff1..0753f7f  main -> main
+File successfully pushed to the remote repository.
